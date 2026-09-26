@@ -1,0 +1,20 @@
+{
+  "name": "omnisend-mcp-server",
+  "version": "1.0.0",
+  "description": "Local MCP server for the Omnisend API. Read contacts, campaigns, automations and analytics, or manage any documented REST endpoint from an AI assistant.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["omnisend", "mcp", "mcp-server", "model-context-protocol", "email-marketing", "marketing-automation", "ai-assistant"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhBayazidAhmed/omnisend-mcp-server.git"
+  },
+  "homepage": "https://github.com/KhBayazidAhmed/omnisend-mcp-server#readme",
+  "bugs": "https://github.com/KhBayazidAhmed/omnisend-mcp-server/issues",
+  "scripts": {
+    "start": "bun run src/server.ts",
+    "test": "bun test",
+    "check": "bun build src/server.ts --target=bun --outfile=dist/server.js"
+  }
+}
