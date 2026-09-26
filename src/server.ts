@@ -74,7 +74,7 @@ async function handle(request: RpcRequest): Promise<void> {
     success(id, {
       protocolVersion: typeof requested === "string" && SUPPORTED_VERSIONS.has(requested) ? requested : VERSION,
       capabilities: { tools: { listChanged: false } },
-      serverInfo: { name: "omnisend-mcp-server", version: "1.0.0" },
+      serverInfo: { name: "omnisend-mcp-server", version: "1.0.1" },
       instructions: "Use omnisend_get for reads. Use omnisend_request for all other Omnisend API methods; it can change or send from the live account. The host is fixed to api.omnisend.com. Consult omnisend_api_guide and the official API docs for operation paths and payloads.",
     });
     return;

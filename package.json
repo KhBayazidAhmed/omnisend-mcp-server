@@ -1,6 +1,6 @@
 {
   "name": "omnisend-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local MCP server for the Omnisend API. Read contacts, campaigns, automations and analytics, or manage any documented REST endpoint from an AI assistant.",
   "private": true,
   "type": "module",

@@ -31,6 +31,8 @@ bun run check
 
 No package install step is needed; the server uses Bun and built-in web APIs. `dist/` is generated only by the build check and is ignored by Git.
 
+**Using another AI client or operating system?** See the [device and AI client guide](docs/clients.md) for macOS, Windows, Linux, Claude Desktop, Claude Code, Cursor, VS Code/Copilot, Gemini CLI, and a generic stdio setup. Phone and browser-only limitations are explained there too.
+
 ### Set the API key
 
 Set `OMNISEND_API_KEY` in the environment of the app that launches the MCP server. For a one-off terminal session on macOS or Linux, prompt for it without putting the value in shell history:
